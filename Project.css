@@ -1,0 +1,456 @@
+
+header{ 
+
+
+display: flex;
+background:linear-gradient(to left,rgb(58, 58, 58),rgb(52, 53, 53));
+width:100%;
+box-sizing: border-box;
+color: black;
+margin-top: 3px;
+}
+.logo{
+    color:rgb(239, 242, 246);
+padding-top: 10px;
+font-size: 45px;
+display: flex;
+width: 50%;
+padding-left: 50px;
+}
+
+ul,a{
+
+	display: flex;
+
+padding: 10px;
+list-style-type: none;
+	text-decoration: none;
+	color: white;
+
+
+}
+.banner{
+  background-image: url("images/background.jpg");
+  width:100%;
+    height: 500px;
+    
+}
+.button{
+padding-left: 50%;
+padding-top: 15%;
+
+
+
+}
+.button1{
+    color: rgb(11, 1, 1);
+    font-size: 30px;
+    background-color: rgb(115, 234, 216);
+    border: none;
+    border-radius: 10px;
+    margin: 1%;
+    
+}
+.button1:hover{
+    background-color: rgb(237, 26, 107);
+    color: aliceblue;
+}
+h1{
+ padding-left: 100px;
+ font-weight:bolder;
+ font-size: 30px;
+ padding-bottom: 0%;
+}
+ 
+
+
+
+.Trend-card{
+	display:flex;
+	flex-wrap:wrap;
+display: inline-flex;
+padding-left: 100px;
+	
+}
+.Trending-course{
+	
+	width:21%;
+margin:1%;
+display: flex;
+flex-wrap:wrap;
+border: 2px solid green;
+background-color: black;
+color: antiquewhite;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: 5px rgb(151, 236, 212);
+}
+
+/* .Trending-course:hover{
+    background-color: grey;
+    box-shadow: 5px black;
+} */
+
+.Trend{
+	width:100%;
+	height:150px;
+    
+}
+.Trending-para{
+margin-left: 10px;
+}
+h2{
+	padding-left: 100px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.recent{
+display: flex;
+width:100%;
+padding-left: 100px;
+
+
+}
+.recent-addition{
+    width:20%;
+    height:auto;
+    margin: 1%;
+   justify-content: center;
+   border-radius: 10px;
+
+ border:2px solid black;
+ box-sizing: border-box;
+background-color: black;
+color: aliceblue;
+}
+/* .recent-addition:hover{
+    background-color:grey;
+} */
+
+
+.recent-img{
+
+width:100%;
+height:150px;
+
+}
+.recent-para{
+    width:100%;
+height:100px;
+margin-left: 10px;
+
+}
+
+.p-top{
+font-size: 40px;
+margin-left: 70px;
+font-weight: bold;
+}
+
+.top{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+padding: 2%;
+
+}
+
+.top-categories{
+  width:20%; 
+  height: 200px;
+  margin: 2%;
+  
+   
+}
+/* .top-categories:hover{
+    transform: scale(1.5,1.5);
+} */
+.img-top{
+width:100%;
+height: 100%;
+
+
+}
+.corporate{
+font-size: 40px;
+font-weight: bold;
+margin-left: 60px;
+}
+.our-corporate-clients{
+width: 100%;
+height:100%;
+display: flex;
+flex-wrap: wrap;
+margin-left: auto;
+}
+.corporate-training{
+    background-image: url(images/banner12.jpg);
+width:21%;
+height:150px;
+margin: 10px;
+padding: 15px;
+
+
+}
+.corporate-clients{
+width:100%;
+height:50%;
+margin-left: 10px;
+margin-top: 30px;
+box-sizing: border-box;
+}
+/* .corporate-training:hover{
+
+    transform: scale(1.3,1.3);
+} */
+.review{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.review-section{
+display: flex;
+width: 100%;
+height: 150px;
+box-sizing: border-box;
+
+}
+.reviews-category{
+    width: 30%;
+    height: 100%;
+   border-radius: 10px;
+    margin:auto;
+   background: linear-gradient(to left, rgb(103, 190, 234), rgb(246, 136, 246));
+   color: black;
+   font-size: 20px;
+    
+}
+/* .reviews-category:hover{
+    background-color: rgb(160, 246, 238);
+    transform: scale(1.1,1.1);
+    color:black;
+
+} */
+.reviewers-name{
+font-size: 30px;
+font-weight: bold;
+margin-left:60px;
+}
+.reviews{
+    margin-left:10px ;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.review-section{
+    height: 300px;
+width:100%;
+
+
+color: azure;
+}
+.reviews-paragraph{
+    margin-left:10px ;
+    margin-top: 15px;
+}
+.enroll{
+background: linear-gradient(to left, pink,blue,green);
+height: 200px;
+width:100%;
+box-sizing: border-box;
+
+}
+.enroll-paragraph{
+    margin-top: 60px;
+    /* margin-left:150px ; */
+    padding-left: 150px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: beige;
+}
+.Contact-us{
+    color: rgb(11, 1, 1);
+    font-size: 30px;
+    background-color: rgb(115, 234, 216);
+    border: none;
+    border-radius: 10px;
+    display: block;
+ margin: auto;
+ 
+}
+.Contact-us:hover{
+    
+    background:linear-gradient(to left,pink,rgb(0, 255, 119));
+}
+
+.achiever-it-para{
+    margin-left:30px ;
+font-size: 40px;
+font-weight: bold;
+}
+.acheivers-IT-Edge{
+display: flex;
+height:300px;
+}
+.achivers-it{
+width:21%;
+margin: 2%;
+}.acheivers-IT-Edge{
+
+}
+.correct-img{
+width:100%;
+height: 150px;
+
+}
+.correct-paragraph1{
+margin-left: 45px;
+}
+.correct-paragraph2{
+width:50%;
+margin-left: 55px;
+}
+.banner2{
+background-image: url("images/banner12.jpg");
+height: 400px;
+width:100%;
+
+
+}
+.why-we-are{
+font-size: 40px;
+text-align: center;
+margin-bottom: 50px;
+}
+.acheivers-IT{
+   display: flex; 
+  
+}
+.course-trending{
+
+height:150px;
+margin: auto;
+
+
+
+width:21%;
+background-color: rgb(249, 243, 243);
+color: blue
+}
+.course-25{
+font-size: 60px;
+text-align: center;
+font-weight: bold;
+}
+.course-trending:hover{
+    background: linear-gradient(rgb(106, 237, 106),rgb(94, 94, 245),rgb(5, 19, 5));
+
+}
+.correct-paragraph{
+margin-left: 50px;
+font-weight: bold;
+}
+.our-trainers{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.our-trainers-from{
+display: flex;
+flex-wrap: wrap;
+height: 500px;
+
+}
+.our-tainers-images{
+width:22%;
+height: 100px;
+margin:10px;
+padding-left: 10px;
+
+}
+.trainers-images{
+width:70%;
+height:50%;
+margin: auto;
+}
+.achieversit-process{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.it-process{
+width:60%;
+margin-left: 10%;
+}
+.job-openings{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.latest-job-openings{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: 5%;
+}
+.openings{
+    background-image: url(images/back-6.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 40%;
+
+margin: 10px;
+}
+.para-openings{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+}
+.para2-openings{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: beige;
+}
+.edureka{
+    background-image: url(images/edureka-business.png);
+ background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+    
+}
+.edureka-para1{
+    width:50%;
+    margin-left: 10px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: beige;
+   
+    
+}
+.edureka-para3{
+    margin-left: 10px;
+    padding: 2px;
+      font-weight: bold;
+      font-size: 20px;
+      color: beige;
+}
+.button3{
+margin-top: 40px;
+/* margin-left: 200px; */
+font-size: 40px;
+
+}
+.button3:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+.know-us-better{
+
+}
+.know-para{
+
+}

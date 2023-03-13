@@ -1,0 +1,13 @@
+
+       .item{
+	background-color: black;
+
+	padding: 12px;
+
+	display: flex;
+	width:250px;
+	height:250px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 50px;
+}
